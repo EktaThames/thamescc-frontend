@@ -10,7 +10,7 @@ export const Header = () => (
                 <input
                     type="text"
                     placeholder="SEARCH FOR PRODUCTS, BRANDS AND MORE"
-                    className="w-full border-0 px-4 py-2 text-sm text-gray-700 placeholder-gray-400 border-none outline-none"
+                    className="w-full border-0 px-4 py-3 text-sm text-gray-700 placeholder-gray-400 border-none outline-none"
                 />
                 <button className="border-0 px-4 flex items-center justify-center">
                      <img src="/search.svg" alt="Bulk Bazaar Logo" className="search" />
@@ -24,8 +24,8 @@ export const Header = () => (
                         <img src="/call.svg" alt="Call" />
                     </div>
                     <div className="text-xs">
-                        <div className="text-black font-sans">Need Help?</div>
-                        <div className="text-blue-600 font-semibold leading-tight font-sans">Call Now 0123456789</div>
+                        <div className="primary-text font-opensans">Need Help?</div>
+                        <div className="text-blue-600 font-semibold leading-tight font-opensans"><span className="primary-text">Call Now</span> 0123456789</div>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@ export const Header = () => (
                     <div className="bg-orange p-2 rounded-full text-white">
                        <img src="/profile.svg" alt="profile" />
                     </div>
-                    <span className="text-black font-sans">Kuldeep Rana</span>
+                    <span className="text-black font-opensans">Kuldeep Rana</span>
                 </div>
 
                 <div className="flex items-center space-x-2">

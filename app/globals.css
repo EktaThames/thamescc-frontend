@@ -17,6 +17,7 @@
 --light-gray:#F4F4F4;
 --dark-gray:#ccc;
 --body-text:#7A7A7A;
+--blue-text:#0000FF;
 
 /*Used for: Backgrounds, cards, form fields, secondary buttons*/
 
@@ -62,14 +63,14 @@ body {
   color: var(--foreground);
  font-family:var(--primary-font) !important;
 }
-
-.text-xs
+.blue-text{color:var(--blue-text);}
+.primary-text{color:var(--primary-text);}
+.font-opensans{font-family:var(--primary-font);}
 header{font-family:var(--primary-font);}
 .primary-text{color:var(--primary-text);}
 .black-text{color:var(--black);}
 .bg-orange{background-color:var(--primary-orange);}
-.head-search input{border:none; outline:none;font-family:var(--primary-font); font-size:14px; font-weight:400; height: 47px;
-    padding: 0px 20px;}
+
 .head-search input::placeholder {
   color: rgba(119, 119, 119, 1);
 }
@@ -91,3 +92,10 @@ header{font-family:var(--primary-font);}
 .top-cat .grid{gap:105px; row-gap:25px;}
 .max-1376{max-width:1376; width:100%;}
 .navigation-bg{background-color:rgba(255, 105, 37, 0.2);}
+
+.quote-p{position:absolute; top: 190px;
+    left: 30px;}
+	
+	.bg-footer{background-color:var(--foreground);}
+	.bg-footer ul li{padding-bottom:15px;}
+	.bg-footer a, .bg-footer p{color:rgba(119, 119, 119, 1);}
