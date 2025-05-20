@@ -1,12 +1,22 @@
-import Image from "next/image";
+import React from "react";
+import { Header } from "./components/Header";
+import { HeroBanner } from "./components/HeroBanner";
+import { Categories } from "./components/Categories";
+import { BestSellers } from './components/BestSellers';
+import { WeeklyOffers } from "./components/WeeklyOffers";
+import { CustomerReviews } from "./components/CustomerReviews";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
   return (
-      <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Welcome to ThamesCC!
-      </h1>
-    </main>
-    
+    <div className="bg-orange-50 text-gray-800">
+      <Header />
+      <HeroBanner />
+      <Categories />
+      <BestSellers />
+      <WeeklyOffers />
+      <CustomerReviews />
+      <Footer />
+    </div>
   );
 }
